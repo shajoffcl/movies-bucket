@@ -1,10 +1,11 @@
 {
-  "homepage": "https://github.com/shajoffcl/movies-bucket",
+  "homepage": "http://shajoffcl.github.io/movies-bucket",
   "name": "movies-bucket",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "private":"true",
   "dependencies": {
     "@material-ui/core": "4.11.0",
     "@material-ui/icons": "4.9.1",

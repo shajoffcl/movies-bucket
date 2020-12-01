@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/movies-bucket">
     <App />
   </BrowserRouter>,
   rootElement

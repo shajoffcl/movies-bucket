@@ -16,7 +16,7 @@ import {
 import { Link } from "react-router-dom";
 import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import { makeStyles } from "@material-ui/core/styles";
-import users from "../../data/users";
+import users from "../data/users";
 import { MIN_USERNAME_LENGTH, MIN_PASSWORD_LENGTH } from "../config";
 import { Alert } from "@material-ui/lab";
 import authService from "./../service/authService";

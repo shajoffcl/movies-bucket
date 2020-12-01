@@ -1,12 +1,12 @@
 import React from "react";
 import AppBar from "./AppBar";
 import Movies from "./Movies";
-import getResult from "./../../data/searchMovies";
+import getResult from "./../data/searchMovies";
 import { Switch, Route } from "react-router-dom";
 import MovieDetails from "./MovieDetails";
-import getDetail from "./../../data/movieDetail";
+import getDetail from "./../data/movieDetail";
 import Welcome from "./Welcome";
-import defaultMovies from "./../../data/defaultMovies";
+import defaultMovies from "./../data/defaultMovies";
 import authService from "./../service/authService";
 import Error from "./Error";
 
